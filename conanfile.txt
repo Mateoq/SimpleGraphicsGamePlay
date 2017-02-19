@@ -1,0 +1,10 @@
+[requires]
+glm/0.9.7.6@dlarudgus20/stable
+glfw/3.2.1@R3v3nX/testing
+freeimage/3.17.0@hilborn/stable
+freetype/2.6.3@lasote/stable
+SDL2/2.0.5@lasote/stable
+
+[generators]
+cmake
+
