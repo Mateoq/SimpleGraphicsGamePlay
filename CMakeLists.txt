@@ -32,6 +32,8 @@ include_directories("${PROJECT_SOURCE_DIR}/Dependencies/includes")
 add_executable(Game
   ${PROJECT_SOURCE_DIR}/Dependencies/Lib/glad.cpp
   ${PROJECT_SOURCE_DIR}/Code/Utils/SDLWrapper.cpp
+  ${PROJECT_SOURCE_DIR}/Code/Utils/Logger.cpp
+  ${PROJECT_SOURCE_DIR}/Code/Sprite.cpp
   ${PROJECT_SOURCE_DIR}/Code/MainGame.cpp
   ${PROJECT_SOURCE_DIR}/Code/main.cpp)
 
